@@ -1,12 +1,21 @@
+/*
+ * @Author: canlong.shen
+ * @Date: 2021-04-28 17:02:41
+ * @LastEditors: your name
+ * @LastEditTime: 2021-05-09 16:49:18
+ * @Description: file content
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Long from './long';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Long />
   </React.StrictMode>,
   document.getElementById('root')
 );
